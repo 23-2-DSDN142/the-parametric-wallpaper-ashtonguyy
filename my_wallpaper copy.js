@@ -18,11 +18,10 @@ function wallpaper_background() {
   background(240, 255, 240); //light honeydew green colour
 }
 
-var centerY = 200 / 2;
+var centerY = height / 2;
 var angle = 0;
 var amplitude = 100;
 var frequency = 0.02;
-
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
 
@@ -33,19 +32,19 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
 
   // Draw the number "8"
   fill(255, 100, 100); // Red color
-  ellipse(25, 65, 30, 37.5);
-  ellipse(25, 90, 30, 37.5);
+  ellipse(120, 200, 60, 75);
+  ellipse(120, 150, 60, 75);
 
   fill(255, 255, 255); // White Color
-  ellipse(25, 65, 15, 18.75);
-  ellipse(25, 90, 15, 18.75);
+  ellipse(120, 200, 30, 37.5);
+  ellipse(120, 150, 30, 37.5);
 
   // Draw the "0"
   fill(255, 100, 100); // Red colour
-  ellipse(65, 80, 40, 60);
+  ellipse(200, 175, 80, 120);
   
   fill(255, 255, 255); // White colour
-  ellipse(25, 175, 40, 80);
+  ellipse(200, 175, 40, 80);
 
   // Draw the final "8"
   fill(255, 100, 100); // Red colour
@@ -76,8 +75,8 @@ function drawSoundwave() {
   endShape();
 }
 
-
+function draw() {
   
-
+}
 
 
